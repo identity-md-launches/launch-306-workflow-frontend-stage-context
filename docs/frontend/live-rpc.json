@@ -1,0 +1,66 @@
+{
+  "checkedAt": "2026-09-27T06:14:59.326Z",
+  "sourceCommit": "47402819880637849506a175967fa00aa1ba91a6",
+  "endpoints": [
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com",
+      "chainId": 11155111,
+      "contracts": [
+        {
+          "name": "LaunchToken",
+          "address": "0xeb31f50280793b2825a940b37b4294d86b0909d3",
+          "codeBytes": 1722
+        },
+        {
+          "name": "PixelCanvas",
+          "address": "0xfa3c90364d4e74afae464512d80b5602447a3cc3",
+          "codeBytes": 2843
+        }
+      ],
+      "token": "0xEB31f50280793b2825a940b37b4294D86b0909D3",
+      "canvasBytes": 3072,
+      "pixel0PricePIXL": "10",
+      "ok": true
+    },
+    {
+      "url": "https://rpc.sepolia.ethpandaops.io",
+      "chainId": 11155111,
+      "contracts": [
+        {
+          "name": "LaunchToken",
+          "address": "0xeb31f50280793b2825a940b37b4294d86b0909d3",
+          "codeBytes": 1722
+        },
+        {
+          "name": "PixelCanvas",
+          "address": "0xfa3c90364d4e74afae464512d80b5602447a3cc3",
+          "codeBytes": 2843
+        }
+      ],
+      "token": "0xEB31f50280793b2825a940b37b4294D86b0909D3",
+      "canvasBytes": 3072,
+      "pixel0PricePIXL": "10",
+      "ok": true
+    },
+    {
+      "url": "https://sepolia.rpc.sentio.xyz",
+      "chainId": 11155111,
+      "contracts": [
+        {
+          "name": "LaunchToken",
+          "address": "0xeb31f50280793b2825a940b37b4294d86b0909d3",
+          "codeBytes": 1722
+        },
+        {
+          "name": "PixelCanvas",
+          "address": "0xfa3c90364d4e74afae464512d80b5602447a3cc3",
+          "codeBytes": 2843
+        }
+      ],
+      "token": "0xEB31f50280793b2825a940b37b4294D86b0909D3",
+      "canvasBytes": 3072,
+      "pixel0PricePIXL": "10",
+      "ok": true
+    }
+  ]
+}

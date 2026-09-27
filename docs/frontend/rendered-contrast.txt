@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Body on page",
+    "foreground": "rgb(36, 39, 36)",
+    "background": "rgb(246, 245, 240)",
+    "ratio": 13.83
+  },
+  {
+    "name": "Muted on page",
+    "foreground": "rgb(99, 104, 95)",
+    "background": "rgb(246, 245, 240)",
+    "ratio": 5.23
+  },
+  {
+    "name": "Text on surface",
+    "foreground": "rgb(36, 39, 36)",
+    "background": "rgb(255, 254, 250)",
+    "ratio": 14.96
+  },
+  {
+    "name": "Muted on surface",
+    "foreground": "rgb(99, 104, 95)",
+    "background": "rgb(255, 254, 250)",
+    "ratio": 5.66
+  },
+  {
+    "name": "Focus ring on surface",
+    "foreground": "rgb(41, 72, 206)",
+    "background": "rgb(255, 254, 250)",
+    "ratio": 7.14
+  },
+  {
+    "name": "Control border on surface",
+    "foreground": "rgb(136, 142, 130)",
+    "background": "rgb(255, 254, 250)",
+    "ratio": 3.34
+  }
+]

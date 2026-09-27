@@ -1,0 +1,633 @@
+{
+  "config": {
+    "argv": [
+      "/opt/imd-worker/node-v24.21.0-linux-x64/bin/node",
+      "/home/imd-worker/.identitymd/work/959b62c5-9e80-4b76-b612-bf255a24d7ad/2358b5e5-afb4-419a-8d70-a48fbbb46cdf/web/node_modules/.bin/playwright",
+      "test"
+    ],
+    "configFile": "/home/imd-worker/.identitymd/work/959b62c5-9e80-4b76-b612-bf255a24d7ad/2358b5e5-afb4-419a-8d70-a48fbbb46cdf/web/playwright.config.mjs",
+    "rootDir": "/home/imd-worker/.identitymd/work/959b62c5-9e80-4b76-b612-bf255a24d7ad/2358b5e5-afb4-419a-8d70-a48fbbb46cdf/web/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/home/imd-worker/.identitymd/work/959b62c5-9e80-4b76-b612-bf255a24d7ad/2358b5e5-afb4-419a-8d70-a48fbbb46cdf/web/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "/home/imd-worker/.identitymd/work/959b62c5-9e80-4b76-b612-bf255a24d7ad/2358b5e5-afb4-419a-8d70-a48fbbb46cdf/web/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 45000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "../docs/frontend/interaction-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": {
+      "command": "node scripts/serve.mjs",
+      "url": "http://localhost:4173/preview/",
+      "reuseExistingServer": true
+    }
+  },
+  "suites": [
+    {
+      "title": "app.spec.mjs",
+      "file": "app.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "static subpath, no wallet, coordinate/keyboard draft, remove and clear",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1112,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-27T06:22:04.974Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4fb2437618ff1ca10639-f079eab3fcbcbb8541f9",
+          "file": "app.spec.mjs",
+          "line": 21,
+          "column": 1
+        },
+        {
+          "title": "single paint requires exact PIXL approval, then simulation, signature, receipt and refresh",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 982,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-27T06:22:06.274Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4fb2437618ff1ca10639-86a1e55c196444798920",
+          "file": "app.spec.mjs",
+          "line": 37,
+          "column": 1
+        },
+        {
+          "title": "ordered duplicate batch costs 21 PIXL and uses paintBatch; withdrawal cannot pay twice",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1157,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-27T06:22:07.284Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4fb2437618ff1ca10639-bf74559ed87d7613d20a",
+          "file": "app.spec.mjs",
+          "line": 50,
+          "column": 1
+        },
+        {
+          "title": "unknown wallet chain offers exact add-chain parameters, then switches again",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 745,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-27T06:22:08.488Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4fb2437618ff1ca10639-4225a269b9867031c718",
+          "file": "app.spec.mjs",
+          "line": 61,
+          "column": 1
+        },
+        {
+          "title": "rejected signing and failed simulation preserve draft and send no transaction",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 948,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-27T06:22:09.259Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4fb2437618ff1ca10639-bea4ed7df98d71d419a3",
+          "file": "app.spec.mjs",
+          "line": 69,
+          "column": 1
+        },
+        {
+          "title": "price change invalidates approval, insufficient balance gates payment, account change clears balances",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1052,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-27T06:22:10.221Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4fb2437618ff1ca10639-c54de5ddba0e265c37ca",
+          "file": "app.spec.mjs",
+          "line": 78,
+          "column": 1
+        },
+        {
+          "title": "queue max 64, cap arithmetic and invalid coordinate bounded",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3555,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-27T06:22:11.284Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4fb2437618ff1ca10639-3a5b487317f8159bbe93",
+          "file": "app.spec.mjs",
+          "line": 90,
+          "column": 1
+        },
+        {
+          "title": "missing contract code keeps transactions disabled, retry recovers",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 650,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-27T06:22:14.855Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4fb2437618ff1ca10639-96852c216ac4f74edb34",
+          "file": "app.spec.mjs",
+          "line": 97,
+          "column": 1
+        },
+        {
+          "title": "mismatched token binding disables transactions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 495,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-27T06:22:15.519Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4fb2437618ff1ca10639-feb3613ad354220072b7",
+          "file": "app.spec.mjs",
+          "line": 104,
+          "column": 1
+        },
+        {
+          "title": "RPC outage marks old state unavailable and retry restores reads",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 654,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-27T06:22:16.048Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4fb2437618ff1ca10639-2526323a1ef8aab5a9c8",
+          "file": "app.spec.mjs",
+          "line": 109,
+          "column": 1
+        },
+        {
+          "title": "reverted receipt retains draft and never enables payment",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 885,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-27T06:22:16.712Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4fb2437618ff1ca10639-e0364ef335916f6609ce",
+          "file": "app.spec.mjs",
+          "line": 117,
+          "column": 1
+        },
+        {
+          "title": "keyboard controls, visible selected-swatch focus and pending approval gate",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 13337,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-27T06:22:17.618Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4fb2437618ff1ca10639-8557a1af5336d4c5f7f9",
+          "file": "app.spec.mjs",
+          "line": 125,
+          "column": 1
+        },
+        {
+          "title": "duplicate costs preserve base-unit rounding at an odd price",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 675,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-27T06:22:30.978Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4fb2437618ff1ca10639-561a154791b5d89165d8",
+          "file": "app.spec.mjs",
+          "line": 141,
+          "column": 1
+        },
+        {
+          "title": "ABI corruption fails closed before RPC verification",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 436,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-27T06:22:31.668Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4fb2437618ff1ca10639-969794e98b18a6c2b1e2",
+          "file": "app.spec.mjs",
+          "line": 145,
+          "column": 1
+        },
+        {
+          "title": "Painted event refreshes live canvas and prices",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 13006,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-27T06:22:32.132Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4fb2437618ff1ca10639-1feb8217560251cd8ad0",
+          "file": "app.spec.mjs",
+          "line": 151,
+          "column": 1
+        },
+        {
+          "title": "desktop, intermediate, mobile reflow and automated accessibility",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2868,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-27T06:22:45.157Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4fb2437618ff1ca10639-97dfb939355d7be65863",
+          "file": "app.spec.mjs",
+          "line": 157,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-27T06:22:04.161Z",
+    "duration": 44005.437,
+    "expected": 16,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

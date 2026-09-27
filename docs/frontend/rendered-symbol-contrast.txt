@@ -1,0 +1,26 @@
+[
+  {
+    "selector": ".network-badge > span",
+    "foreground": "rgb(99, 104, 95)",
+    "background": "rgb(246, 245, 240)",
+    "ratio": "5.23"
+  },
+  {
+    "selector": ".tiny-grid",
+    "foreground": "rgb(99, 104, 95)",
+    "background": "rgb(255, 254, 250)",
+    "ratio": "5.66"
+  },
+  {
+    "selector": ".chosen > span",
+    "foreground": "rgb(255, 255, 255)",
+    "background": "rgb(42, 75, 215)",
+    "ratio": "6.80"
+  },
+  {
+    "selector": ".transaction-status > span",
+    "foreground": "rgb(99, 104, 95)",
+    "background": "rgb(246, 245, 240)",
+    "ratio": "5.23"
+  }
+]

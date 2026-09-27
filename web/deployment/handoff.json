@@ -1,0 +1,51 @@
+{
+  "chainId": 11155111,
+  "repoUrl": "https://github.com/identity-md-launches/launch-230-pixelcanvas",
+  "version": 1,
+  "launchId": "0ac37315-248f-49a3-b0ae-6087acd07c31",
+  "manifest": {
+    "kind": "evm_project",
+    "pool": {
+      "fee": 3000,
+      "tickSpacing": 60,
+      "initialPrice": "79228162514264337593543950336",
+      "pairedCurrency": "0x0000000000000000000000000000000000000000"
+    },
+    "notes": "Pixel Wall is intended for Sepolia. Deploy src/LaunchToken.sol:LaunchToken with no constructor arguments, then src/PixelCanvas.sol:PixelCanvas with the launch token address. PixelCanvas stores that address immutably, requires no initial token balance or initialization calls, and has no owner or admin role. Players obtain PIXL through the native ETH launch pool and approve PixelCanvas before painting; repaint credits are collected through withdraw(). The pool has no hook. initialPrice is decimal sqrtPriceX96; the deployer derives the effective opening price from the pinned policy when it specifies initialMarketCapWei. The factory supplies liquidity and MerkleDistributor. Policy and signed artifact linkage are supplied by services.",
+    "token": {
+      "name": "Pixel Wall",
+      "symbol": "PIXL",
+      "contract": "LaunchToken",
+      "decimals": 18
+    },
+    "contracts": [
+      {
+        "contract": "PixelCanvas",
+        "constructorArgs": [
+          "$token"
+        ]
+      }
+    ]
+  },
+  "contracts": [
+    {
+      "name": "LaunchToken",
+      "txHash": "0x6833ca4c024d5ccff69aa1ce00576bbe6259e13f43dbf65ee857f4b63b92c6e0",
+      "abiHash": "38880b8e56d42ce900f744a7908c7139632a49f1c3f33385c64ceaed29d37bee",
+      "address": "0xeb31f50280793b2825a940b37b4294d86b0909d3",
+      "blockNumber": 11791250,
+      "creationCodeHash": "540eda67f138b76a5949b31d879019d662025a76f34a73a5b742b03fb2a2cfba"
+    },
+    {
+      "name": "PixelCanvas",
+      "txHash": "0x6833ca4c024d5ccff69aa1ce00576bbe6259e13f43dbf65ee857f4b63b92c6e0",
+      "abiHash": "c8f37b334893c8a6e960024b2b2d3937fd607d59c99fd10a898e167bfb762804",
+      "address": "0xfa3c90364d4e74afae464512d80b5602447a3cc3",
+      "blockNumber": 11791250,
+      "creationCodeHash": "7a96f74aa41278018b268fa27e26b7cc18c319730d9018a5883697b928513faf"
+    }
+  ],
+  "sourceCommit": "47402819880637849506a175967fa00aa1ba91a6",
+  "abiInstructions": "Build ABIs from this exact source commit; compare canonicalKeccak(abi) with abiHash. Verify deployed code on the stated chain before enabling transactions.",
+  "attestationHash": "202907f2ab2191368dfd103fbff9a2734e10ad6cba6803975c5804b93a2d6eb6"
+}

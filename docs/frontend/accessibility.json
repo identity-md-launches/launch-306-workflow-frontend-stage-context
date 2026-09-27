@@ -1,0 +1,150 @@
+[
+  {
+    "width": 1440,
+    "geometry": {
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "nodes": [
+          {
+            "target": [
+              ".network-badge > span[aria-hidden=\"true\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "target": [
+              ".tiny-grid"
+            ],
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "target": [
+              ".chosen > span"
+            ],
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "target": [
+              ".transaction-status > span[aria-hidden=\"true\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "width": 800,
+    "geometry": {
+      "width": 800,
+      "scrollWidth": 800
+    },
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "nodes": [
+          {
+            "target": [
+              ".network-badge > span[aria-hidden=\"true\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "target": [
+              ".tiny-grid"
+            ],
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "target": [
+              ".chosen > span"
+            ],
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "target": [
+              ".transaction-status > span[aria-hidden=\"true\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "geometry": {
+      "width": 390,
+      "scrollWidth": 390
+    },
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "nodes": [
+          {
+            "target": [
+              ".tiny-grid"
+            ],
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "target": [
+              ".chosen > span"
+            ],
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "target": [
+              ".transaction-status > span[aria-hidden=\"true\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "width": 320,
+    "geometry": {
+      "width": 320,
+      "scrollWidth": 320
+    },
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "nodes": [
+          {
+            "target": [
+              ".tiny-grid"
+            ],
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "target": [
+              ".chosen > span"
+            ],
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "target": [
+              ".transaction-status > span[aria-hidden=\"true\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      }
+    ]
+  }
+]

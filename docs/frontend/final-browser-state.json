@@ -1,0 +1,18 @@
+{
+  "url": "http://localhost:4173/preview/",
+  "title": "Pixel Wall — A little colour. A shared canvas.",
+  "viewport": {
+    "width": 320,
+    "height": 800
+  },
+  "scrollWidth": 320,
+  "liveLabel": "● Live",
+  "heading": "A small mark. A lasting exchange.",
+  "manifestAssets": [
+    "http://localhost:4173/preview/assets/index-BIJDlHuF.js",
+    "http://localhost:4173/preview/assets/index-CdBsT_nv.css",
+    "http://localhost:4173/preview/imd-deployment.json",
+    "http://localhost:4173/preview/abi/LaunchToken.json",
+    "http://localhost:4173/preview/abi/PixelCanvas.json"
+  ]
+}
